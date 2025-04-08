@@ -9,6 +9,15 @@
       "args": ["runserver", "0.0.0.0:8000"],
       "django": true,
       "justMyCode": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run React Server",
+      "program": "${workspaceFolder}/octofit-tracker/frontend/node_modules/react-scripts/bin/react-scripts.js",
+      "args": ["start"],
+      "cwd": "${workspaceFolder}/octofit-tracker/frontend",
+      "console": "integratedTerminal"
     }
   ]
 }
