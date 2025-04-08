@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../docs/octofitapp-small.png';
 
 function AppWithLogo() {
   return (
     <div className="logo">
-      <img src={logo} alt="OctoFit Logo" />
+      <img src="/octofitapp-small.png" alt="OctoFit Logo" />
       <App />
     </div>
   );
