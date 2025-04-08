@@ -25,7 +25,7 @@ SECRET_KEY = ')*j6aa%y$=*4_xi6t#x%8bnv_s==trr1jp!sn4ier13ten)b=^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ominous-zebra-v67vvqvg6cxwww-8000.app.github.dev']
 
 
 # Application definition
